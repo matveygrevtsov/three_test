@@ -29,7 +29,6 @@ export class Animator {
 
     // Объявляем renderer
     this.renderer = new THREE.WebGLRenderer()
-    this.renderer.setSize(window.innerWidth, window.innerHeight)
     this.renderer.shadowMap.enabled = true
 
     // Добавляем кубик
